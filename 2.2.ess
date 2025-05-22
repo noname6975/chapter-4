@@ -1,0 +1,76 @@
+start
+
+new i number
+set i 1
+loop table1 (10 > i)
+    log number i
+    set i i + 1
+end table1
+
+new j number
+set j 2
+loop table2 (19 > j)
+     log number j
+     set j j + 2
+end table2
+
+new k number
+set k 3
+loop table3 (28 > k)
+     log number k
+     set k k + 3
+end table3
+
+new a number
+set a 4
+loop table4 (37 > a)
+     log number a
+     set a a + 4
+end table4
+
+new b number
+set b 5
+loop table5 (46 > b)
+     log number b
+     set b b + 5
+end table5
+
+new h number
+set h 6
+loop table6 (55 > h)
+     log number h
+     set h h + 6
+end table6
+
+new s number
+set s 7
+loop table7 (64 > s)
+     log number s
+     set s s + 7
+end table7
+
+new v number
+set v 8
+loop table8 (73 > v)
+     log number v
+     set v v + 8
+end table8
+
+new d number
+set d 9
+loop table9 (82 > d)
+     log number d
+     set d d + 9
+end table9
+
+delete i
+delete j
+delete k
+delete h
+delete v
+delete a
+delete b
+delete s
+delete d
+
+finish
